@@ -22,6 +22,7 @@ body {
 ol li{
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 20px;
   margin: 1em 0;
 }
 
@@ -33,59 +34,80 @@ ul li{
 
 
 .wrapper{
-  border: solid;
-  height: 650px;
-  margin-bottom: 50px;
-}
-
-.title{
-  float: left;
-  border-style:solid;
-  border-width:5px;
-  border-color:#331A00;
-  padding: 75px;
-  text-align: center;
-  margin-top: 75px;
-  margin-left: 50px;
-  margin-bottom: 100px;
-  max-width: 500px;
-}
-
-.capText{
-  font-size: 64px;
-}
-
-#img1{
-  width: 500px;
-  height: 488px;
-  margin-top: 72px;
-  margin-right: 50px;
-  float: right;
-  object-fit: cover;
-}
-
-
-
-.ingredients{
   /*border: solid;*/
-  float: right;
-  margin-top: 50px;
-  margin-right: 100px;
-
-
+  height: 650px;
+  margin-bottom: 100px;
 }
 
-#img2{
-  height: 600px;
-  width: 488px;
-  padding: 50px;
-  float: left;
-  object-fit: cover;
-}
 
-.instructions{
-  max-width: 375px;
-}
+/* TITLE BLOCK */
+  .title{
+    float: left;
+    border-style:solid;
+    border-width:5px;
+    border-color:#331A00;
+    padding: 75px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    max-width: 500px;
+  }
+
+  .capText{
+    font-size: 64px;
+  }
+
+  #img1{
+    height: 488px;
+    width: 500px;
+    margin-top: 72px;
+    margin-right: 50px;
+    float: right;
+    object-fit: cover;
+  }
+
+
+/* INGREDIENT BLOCK */
+  .ingredients{
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    /*border: solid;*/
+  }
+
+  #img2{
+    height: 600px;
+    width: 488px;
+    padding: 50px;
+    float: left;
+    object-fit: cover;
+  }
+
+
+/* INSTRUCTION BLOCK */
+  .instructions{
+    float: left;
+    max-width: 375px;
+    margin-left: 120px;
+  }
+
+  #img3{
+    height: 550px;
+    width: 500px;
+    float: right;
+    object-fit: cover;
+    padding: 50px;
+  }
+
+  #img4{
+    height: 700px;
+    width: 500px;
+    float: right;
+    object-fit: cover;
+    padding: 50px;
+    margin-top: -50px;
+  }
 
 
 
