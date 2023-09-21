@@ -137,7 +137,7 @@ body {
   }
 
   #img5{
-    height: 600px;
+    height: 550px;
     width: 500px;
     float: left;
     object-fit: cover;
@@ -151,7 +151,7 @@ body {
     /*border: solid;*/
     height: 200px;
     text-align: center;
-    margin-top: -75px;
+    margin-top: -125px;
     margin-left: 150px;
     max-width: 1000px;
   }
