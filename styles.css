@@ -1,0 +1,157 @@
+/*
+  Alex Burmeister
+  DES 070 9/21/23
+  Project 2: How to Website
+*/
+
+body {
+  background-color: #CCE6FF;
+  color: #331A00;
+  padding: 5%;
+}
+
+/* FONTS */
+  .font1 {
+    font-family: 'Yeseva One', serif;
+    font-size: 48px;
+    max-width: 600px;
+  }
+
+  .font2 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .font3{
+    font-family: 'Yeseva One', serif;
+    font-size: 50px;
+  }
+
+
+/* LISTS */
+  ol li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin: 1em 0;
+  }
+
+  ul li{
+    margin-bottom: 7px;
+    font-size: 25px;
+    margin: 1em 0;
+  }
+
+
+/* BLOCKS*/
+  .wrapper{
+
+    /*border: solid;*/
+    height: 650px;
+    margin-bottom: 100px;
+  }
+
+  .wrapperI{
+
+    /*border: solid;*/
+    height: 1400px;
+    margin-bottom: 100px;
+  }
+
+
+/* TITLE BLOCK */
+  .title{
+    float: left;
+    border-style:solid;
+    border-width:5px;
+    border-color:#331A00;
+    padding: 75px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    max-width: 500px;
+  }
+
+  .capText{
+    font-size: 64px;
+  }
+
+  #img1{
+    height: 488px;
+    width: 500px;
+    margin-top: 72px;
+    margin-right: 50px;
+    float: right;
+    object-fit: cover;
+  }
+
+
+/* INGREDIENT BLOCK */
+  .ingredients{
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    /*border: solid;*/
+  }
+
+  #img2{
+    height: 600px;
+    width: 488px;
+    padding: 50px;
+    float: left;
+    object-fit: cover;
+  }
+
+
+/* INSTRUCTION BLOCK */
+  .instructions{
+    float: left;
+    max-width: 375px;
+    margin-left: 120px;
+  }
+
+  #img3{
+    height: 550px;
+    width: 500px;
+    float: right;
+    object-fit: cover;
+    padding: 50px;
+  }
+
+  #img4{
+    height: 700px;
+    width: 500px;
+    float: right;
+    object-fit: cover;
+    padding: 50px;
+    margin-top: -50px;
+  }
+
+
+/* TIPS BLOCK */
+  .tips{
+    float: right;
+    max-width: 500px;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+
+  #img5{
+    height: 550px;
+    width: 500px;
+    float: left;
+    object-fit: cover;
+    padding: 25px;
+  }
+
+
+/* FINAL BLOCK */
+  .final{
+
+    /*border: solid;*/
+    height: 200px;
+    text-align: center;
+    margin-top: -125px;
+    margin-left: 150px;
+    max-width: 1000px;
+  }
